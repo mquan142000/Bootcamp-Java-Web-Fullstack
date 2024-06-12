@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>if...else...if</title>
+</head>
+<body>
+<script>
+    let ten =+prompt("Nhập tên của bạn: ")
+    if (ten == "admin") {
+        let pass = +prompt("Nhập password: ")
+        if (pass == "hello") {
+            alert("Chào bạn")
+        } else if (pass == null) {
+            alert("Mời nhập password")
+        } else {
+            alert("Sai password")
+        }
+    }else if (ten == null){
+        alert("Sai")
+    }else {
+        alert("Tôi không biết bạn")
+    }
+
+
+</script>
+</body>
+</html>

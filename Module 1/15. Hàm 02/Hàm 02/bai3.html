@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function giaiThua(x) {
+        if (x < 0) {
+            return "không tồn tại giai thừa của số "
+        }
+        if (number === 0 || number === 1) {
+            return 1
+        }
+        for (i = 2; i <= number; i++) {
+            s *= i
+        }
+        return s
+    }
+
+    let number = +prompt()
+    let s = 1
+    document.write(giaiThua(s))
+</script>
+</body>
+</html>

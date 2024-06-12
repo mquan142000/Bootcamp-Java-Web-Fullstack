@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let a = [3,8,6]
+    let max = a[0]
+    let s = 0;
+    for (let i=0;i<a.length;i++){
+        if (max < a[i]){
+            max = a[i]
+            s = a/3
+        }
+    }
+    let x = 0
+    for (let i=0 ;i<a.length;i++){
+        x += a[i]/3
+    }
+    document.write("Gía trị lớn nhất là: "+max+"<br>"+"Giá trị trung bình của các phần tử trong mảng là: "+x)
+</script>
+</body>
+</html>

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Do you love me</title>
+</head>
+<body>
+<h2 style="position: absolute;top: 20px">Do you love me?</h2>
+<button onclick=yes() style="position: absolute;left: 30px;top: 100px">Yes</button>
+<button id="no" onmouseover="no()" style="position: absolute;top: 100px;left: 100px">No</button>
+<script>
+    function no(){
+        let nut =document.getElementById("no")
+        nut.style.left =Math.random()*window.innerWidth+"px"
+        nut.style.top =Math.random()*window.innerHeight+"px"
+    }
+    function yes(){
+        alert("Yes.I love you <3")
+    }
+</script>
+</body>
+</html>

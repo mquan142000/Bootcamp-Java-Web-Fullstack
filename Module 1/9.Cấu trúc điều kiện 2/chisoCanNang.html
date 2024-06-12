@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+Nhập cân nặng: (kg) <input type="text" name id="cannang">
+<br>
+<br>
+Nhập chiều cao: (m) <input type="text" name id="chieucao">
+<br>
+<br>
+<button onclick="nhap()">Click</button>
+<p id="result"></p>
+<script>
+function nhap(){
+    let cannang =document.getElementById("cannang").value
+    let chieucao =document.getElementById("chieucao").value
+    let a =cannang/(chieucao^2)
+    let result =""
+    if (a<18.5){
+        document.getElementById("result").innerHTML="Underweight"
+    }
+    if (18.5<=a && a<25.0){
+        document.getElementById("result").innerHTML="Normal"
+    }
+    if (25.0<=a && a<30.0){
+        document.getElementById("result").innerHTML="Overweight"
+    }
+    if (30.0<=a){
+        document.getElementById("result").innerHTML="Obese"
+    }
+}
+</script>
+</body>
+</html>

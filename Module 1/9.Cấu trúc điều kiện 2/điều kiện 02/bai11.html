@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Viết chương trình tính thuế thu nhập cá nhân.</title>
+</head>
+<body>
+<script>
+     let thunhap =prompt("Nhập thu thập: ")
+     let thue = tinhThuethunhap(thunhap);
+     function tinhThuethunhap(thunhap){
+         let thue = 0;
+         if (thunhap <=5000000){
+             thue = 0.05 * thunhap
+             document.write("tiền" + thue +"VNĐ")
+         }else if (thunhap <=10000000){
+             thue = 0.1 * (thunhap - 5000000) + 0.5*5000000
+             document.write("Tiền" + thue +"VNĐ")
+         }else if (thunhap <=18000000){
+             thue = 0.15 * (thunhap-10000000) + 0.1 *(10000000 -5000000)+0.05 * 5000000;
+             document.write("Tiền" + thue +"VNĐ")
+         }else{
+             thue = 0.2 * (thunhap-18000000) + 0.15 *(18000000 - 10000000)+0.1*(1000000-5000000)+0.05*5000000;
+             document.write("Tiền" + thue +"VNĐ")
+         }
+     }
+
+</script>
+</body>
+</html>

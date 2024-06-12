@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Car Game</title>
+    <style>
+        #gameCanvas {
+            border: 3px solid red;
+            position: relative;
+        }
+    </style>
+</head>
+<body>
+<div id="game">
+    <canvas id="gameCanvas" width="800" height="600"></canvas>
+</div>
+<script>
+    const canvas = document.getElementById("gameCanvas");
+    const ctx = canvas.getContext("2d");
+
+    function Car(imageSrc, top, left, size) {
+        this.image = new Image();
+        this.image.src = imageSrc;
+        this.top = top;
+        this.left = left;
+        this.size = size;
+        this.imageLoaded = false;
+
+        this.image.onload = () => {
+            this.imageLoaded = true;
+            this.draw();
+        };
+
+        this.moveRight = function () {
+            if (this.left < canvas.width - this.size) {
+                this.left += 50;
+                this.draw();
+            }
+        }
+        this.moveLeft = function () {
+            if (this.left > 0) {
+                this.left -= 50;
+                this.draw();
+            }
+        }
+        this.moveUp = function () {
+            if (this.top > 0) {
+                this.top -= 50;
+                this.draw();
+            }
+        }
+        this.moveDown = function () {
+            if (this.top < canvas.height - this.size) {
+                this.top += 50;
+                this.draw();
+            }
+        }
+        this.draw = function () {
+            if (this.imageLoaded) {
+                ctx.clearRect(0, 0, canvas.width, canvas.height);
+                ctx.drawImage(this.image, this.left, this.top, this.size, this.size);
+                obstacle.draw();
+                if (checkCollision(this, obstacle)) {
+                    endGame();
+                }
+            }
+        }
+    }
+
+    function Obstacle(top, left, size, color) {
+        this.top = top;
+        this.left = left;
+        this.size = size;
+        this.color = color;
+
+        this.draw = function () {
+            ctx.fillStyle = this.color;
+            ctx.fillRect(this.left, this.top, this.size, this.size);
+        }
+    }
+
+    function checkCollision(car, obstacle) {
+        return !(car.left > obstacle.left + obstacle.size ||
+            car.left + car.size < obstacle.left ||
+            car.top > obstacle.top + obstacle.size ||
+            car.top + car.size < obstacle.top);
+    }
+
+    function endGame() {
+        window.removeEventListener('keydown', handleKeydown);
+        alert('Game Over! You hit the obstacle.');
+    }
+
+    var car = new Car('pika.png', 20, 30, 100);
+    var obstacle = new Obstacle(200, 200, 100, 'blue');
+
+    function handleKeydown(event) {
+        switch (event.key) {
+            case 'ArrowRight':
+                car.moveRight();
+                break;
+            case 'ArrowLeft':
+                car.moveLeft();
+                break;
+            case 'ArrowUp':
+                car.moveUp();
+                break;
+            case 'ArrowDown':
+                car.moveDown();
+                break;
+        }
+    }
+
+    document.addEventListener('DOMContentLoaded', function () {
+        window.addEventListener('keydown', handleKeydown);
+    });
+</script>
+</body>
+</html>

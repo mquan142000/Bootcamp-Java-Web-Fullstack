@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tính cước điện thoại cho một hộ gia đình</title>
+</head>
+<body>
+<script>
+    let phut =+prompt("Nhập số phút: ")
+    let gia =0
+    if (phut < 10){
+        gia =2000
+    }
+    if (phut >= 10 && phut < 60){
+        gia =2500
+    }
+    if (phut >=60){
+        gia =4000
+    }
+    alert(phut*gia)
+</script>
+</body>
+</html>

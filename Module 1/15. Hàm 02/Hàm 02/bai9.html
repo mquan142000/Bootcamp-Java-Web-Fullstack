@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let inputNumber = +prompt()
+    let arrNumber = [3, 5, 9, 2, 12, 7, 3]
+    document.write(kiemTra(arrNumber, inputNumber))
+     function kiemTra(arr, s) {
+        let dem = 0
+        s = 3
+        arr[1]=10
+        for (i = 0; i < arr.length; i++) {
+            if (arr[i] === s) {
+                dem++
+            }
+        }
+        if (dem>0){
+            return dem
+        }
+        else{
+            return -1
+        }
+
+
+        //return dem > 0 ? dem : -1
+
+    }
+
+    document.write(arrNumber[1]) //Tham chieu
+    document.write(inputNumber) //Tham tri
+</script>
+</body>
+</html>

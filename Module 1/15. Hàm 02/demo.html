@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h2>Add New Product</h2>
+<input type="text" id="productInput" style="width: 30%;height: 25px">
+<button id="inp" onclick="showFormAdd()" style="color: white;background: #7CFC00; border: #7CFC00; height: 32px; width: 60px">Add</button>
+<div id="disp"></div>
+<script>
+    let listSp = ["Sony Xperia", "Samsung Galaxy", "Nokia 6", "Xiaomi Redmi Note 4", "Apple Iphone 6s", "Xiaomi Mi 5s Plus", "Apple Iphone 8 Plus", "Fujitsu F-04E", "Oppo A71"]
+    showList();
+    function showList() {
+        let str = '<h3>Danh sách sản phẩm</h3>'
+        str += `<p>Số lượng sản phẩm: ${listSp.length}</p>`
+        for (let i = 0; i < listSp.length; i++) {
+            str += `<h4>${listSp[i]}<button style="color: white;background: #7CFC00; border: #7CFC00; height: 30px; width: 60px;margin: 0 5px" onclick ="edit(${i})">Edit</button><button style="color: white;background: #7CFC00; border: #7CFC00; height: 30px; width: 60px; margin: 0 5px" onclick ="xoa(${i})">Delete</button></h4>`
+        }
+        document.getElementById("disp").innerHTML = str
+    }
+
+    function showFormAdd() {
+        let newProduct = document.getElementById("productInput").value;
+        if (newProduct) {
+            listSp.push(newProduct);
+            showList();
+            document.getElementById("productInput").value = '';
+        }
+    }
+    function edit(index){
+        let newProduct = document.getElementById("productInput").value;
+        if (newProduct) {
+            listSp[index] = newProduct
+            showList();
+            document.getElementById("productInput").value = '';
+        }
+    }
+    function xoa(index){
+        listSp.splice(index,1)
+        showList()
+    }
+</script>
+</body>
+</html>

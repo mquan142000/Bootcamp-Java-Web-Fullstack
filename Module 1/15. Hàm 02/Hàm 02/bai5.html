@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function giaTrinhonhat(x, y, z) {
+        if (x < y && x < z) {
+            return "x nho nhat"
+        }
+        if (y < x && y < z) {
+            return "y nho nhat"
+        }
+        if (z < x && z < y) {
+            return "z nho nhat"
+        }
+    }
+
+    let a = +prompt()
+    let b = +prompt()
+    let c = +prompt()
+    document.write(giaTrinhonhat(a, b, c))
+
+</script>
+</body>
+</html>

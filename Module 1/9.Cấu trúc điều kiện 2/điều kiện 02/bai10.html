@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Viết chương trình tính giá điện.</title>
+</head>
+<body>
+<script>
+    let dienTieuthu =prompt("Nhập số điện tiêu thụ: ")
+    let giaDien = tinhGiadien(dienTieuthu)
+    function tinhGiadien(soDien){
+        let giaDien = 0;
+        if(soDien <= 50){
+            giaDien = soDien * 1500;
+            document.write("Giá điện: "+ giaDien +"VNĐ")
+        }else if (soDien <=100){
+            giaDien = 50 * 1500 + (soDien - 50) * 2000;
+            document.write("Giá điện: "+ giaDien +"VNĐ");
+        }else {
+            giaDien = 50 * 1500 + 50 * 2000 + (soDien - 100) * 2500;
+            document.write("Giá điện: "+ giaDien +"VNĐ");
+        }
+    }
+
+</script>
+</body>
+</html>

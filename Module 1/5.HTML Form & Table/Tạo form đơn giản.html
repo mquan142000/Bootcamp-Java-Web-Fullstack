@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tạo form đơn giản</title>
+    <style>
+        table{
+            border-collapse:collapse;
+            text-allign:center;
+        }
+        th{
+            padding:10px
+        }
+        div{
+            background-color:#FFFACD;
+            width: 30%
+        }
+    </style>
+</head>
+<body>
+<div>
+<table>
+    <tr>
+        <th colspan="2" style="background:red; color:white">SỞ THÍCH HOẠT ĐỘNG</th>
+    </tr>
+    <tr>
+        <td style="color:blue">Họ và tên: </td>
+        <td><input type="text" size="30px"> </td>
+    </tr>
+    <tr>
+        <td style="color:blue">Email: </td>
+        <td><input type="text"></td>
+    </tr>
+    <tr>
+        <td style="color:blue">Sở thích</td>
+    <td>
+    <table>
+    <tr style="color:orange">
+        <td><input type="checkbox">Thể thao</td>
+        <td><input type="checkbox">Âm nhạc</td>
+        <td><input type="checkbox">Đọc sách</td>
+    </tr>
+    <tr style="color:orange">
+        <td><input type="checkbox">Lướt web</td>
+        <td><input type="checkbox">Chơi game</td>
+        <td><input type="checkbox">Điện ảnh</td>
+    </tr>
+        <tr style="color:orange">
+            <td><input type="checkbox">Du lịch</td>
+        </tr>
+    </table>
+    </td>
+    </tr>
+    <tr>
+        <td></td>
+    <td>
+        <button>Gửi thông tin</button>
+        <button>Gửi lại</button>
+    </td>
+    </tr>
+</table>
+</div>
+</body>
+</html>

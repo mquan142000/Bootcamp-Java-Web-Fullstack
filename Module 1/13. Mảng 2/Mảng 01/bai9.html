@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let a = [3, 12, 5, 8, 25, 7, 13, 6, 10, 18]
+    let b = [1, 2, 4, 7, 9, 12, 14, 18, 20, 31]
+    let c = new Array(20)
+    for (let i = 0; i < a.length; i++) {
+        c[i] = a[i]
+    }
+    for (let i = 0; i < b.length; i++) {
+        c[a.length + i] = b[i]
+    }
+    document.write(c)
+</script>
+</body>
+</html>

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    class Mobile {
+        constructor() {
+            this.battery = 100;
+            this.draftMessage = "";
+            this.inbox = [];
+            this.sentMessages = [];
+            this.isOn = false;
+        }
+
+        checkPhoneStatus() {
+            return this.isOn
+        }
+
+        turnOn() {
+            if (!this.isOn) {
+                this.isOn = true;
+                document.write("Phone is now ON.");
+            }
+        }
+
+        turnOff() {
+            if (this.isOn) {
+                this.isOn = false;
+                document.write("Phone is now OFF.");
+            }
+        }
+
+        chargeBattery() {
+            this.battery = 100;
+            document.write("Battery fully charged.");
+        }
+
+        composeMessage(message) {
+            if (!this.isOn) {
+                document.write("Phone is OFF. Cannot compose message.");
+                return;
+            }
+            this.draftMessage = message;
+            this.decreaseBattery();
+        }
+
+        receiveMessage(message, fromMobile) {
+            if (!this.isOn) {
+                document.write("Phone is OFF. Cannot receive message.");
+                return;
+            }
+            this.inbox.push({from: fromMobile, message: message});
+            this.decreaseBattery();
+        }
+
+        sendMessage(toMobile){
+            if (!this.isOn){
+                document.write("Phone is OFF. Cannot receive message.")
+                return;
+            }
+            if (this.draftMessage === ""){
+                document.write("No message to send.")
+                return;
+            }
+            toMobile.receiveMessage(this.draftMessage, this);
+            this.sentMessages.push(this.draftMessage);
+            this.draftMessage = "";
+            this.decreaseBattery();
+        }
+
+        viewInbox(){
+            if (!this.isOn){
+                document.write("Phone is OFF. Cannot view inbox");
+                return;
+            }
+            return this.inbox;
+        }
+
+        viewSentMessages(){
+            if (!this.isOn){
+                document.write("Phone is OFF. Cannot view sent messages.")
+                return;
+            }
+            return this.sentMessages;
+        }
+
+        decreaseBattery(){
+            if (this.battery>0){
+                this.battery--;
+            }
+            if (this.battery === 0){
+                this.turnOff();
+                document.write("Battery is dead. Phone is now OFF.");
+            }
+        }
+    }
+
+    let phone1 = new Mobile();
+    let phone2 = new Mobile();
+
+    phone1.turnOn();
+    phone2.turnOn();
+
+    phone1.composeMessage("Hello, this is a test message.");
+    phone1.sendMessage(phone2);
+
+    document.write("Sent Messages:", phone1.viewSentMessages());
+
+    document.write("Inbox Messages:", phone2.viewInbox());
+</script>
+</body>
+</html>

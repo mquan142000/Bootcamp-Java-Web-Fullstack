@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Chuyển đổi tiền tệ</title>
+</head>
+<body>
+<table>
+    <tr>
+        <th>Amount</th>
+        <th>From Currency</th>
+        <th>To Currency</th>
+    </tr>
+    <tr>
+        <td><input type="number" id="Amount"></td>
+        <td>
+            <select id="FromC">
+                <option value="USD">USD</option>
+                <option value="VND">VND</option>
+            </select>
+        </td>
+        <td>
+            <select id="To">
+                <option value="VND">VND</option>
+                <option value="USD">USD</option>
+            </select>
+        </td>
+        <td><button onclick="nhan()">Convert</button></td>
+</table>
+<p id="result">bang: </p>
+<script>
+    function nhan(){
+        let Amount =document.getElementById("Amount").value;
+        let FromC =document.getElementById("FromC").value;
+        let To =document.getElementById("To").value;
+        let result
+    if (FromC == "USD" && To =="VND"){
+        result = "bang: " + (Amount*23000)+"Đ";
+    }
+    else if(FromC == "VND" && To =="USD"){
+        result = "bang: " +(Amount/2300)+"$"
+    }
+    else if (FromC == "VNĐ"){
+        result = "bang: " + Amount + "Đ"
+    }
+    else {
+        result = "bang: " + Amount + "$"
+    }
+    document.getElementById("result").innerHTML= result;
+    }
+</script>
+</body>
+</html>

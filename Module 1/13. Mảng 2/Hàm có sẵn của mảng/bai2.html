@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let a = window.prompt()
+    let s = [a[0]]
+    for (let i = 1; i < a.length; i++) {
+        if ((a[i - 1] % 2 === 0) && (a[i] % 2 === 0)) {
+            s.push("-", a[i])
+        } else {
+            s.push(a[i])
+        }
+    }
+    document.write(s.join(""))
+</script>
+</body>
+</html>

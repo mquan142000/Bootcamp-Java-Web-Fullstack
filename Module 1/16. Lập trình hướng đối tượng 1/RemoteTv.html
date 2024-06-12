@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    class TiVi {
+        constructor() {
+            this.currentChannel = 1;
+            this.volume = 10;
+            this.isOn = false;
+        }
+
+        turnOn() {
+            this.isOn = true;
+            document.write("Tivi is now ON" + '<br>');
+        }
+
+        turnOff() {
+            this.isOn = false;
+            document.write('<br>' + "Tivi is now OFF");
+        }
+
+        //
+        changeChannel(channel) {
+            if (!this.isOn) {
+                document.write("Tivi is OFF. Cannot adjust volume");
+                return;
+            }
+            this.currentChannel = channel;
+            document.write(`Channel changed to ${this.currentChannel}` + '<br>');
+        }
+
+        adjustVolume(change) {
+            if (!this.isOn) {
+                document.write("Tivi is OFF. Cannot adjust volume");
+                return;
+            }
+            this.volume += change;
+            if (this.volume < 0) this.volume = 0
+            document.write(`Volume adjusted to ${this.volume}`);
+        }
+    }
+
+    class Remote {
+        constructor(code) {
+            this.code = code;
+        }
+
+
+        changeChannel(tv, channel) {
+            if (!tv.isOn) {
+                document.write("TiVi is OFF. Cannot change channel with remote.");
+                return;
+            }
+            tv.changeChannel(channel);
+        }
+
+        adjustVolume(tv, change) {
+            if (!tv.isOn) {
+                document.write("TiVi is OFF. Cannot change channel with remote.")
+                return;
+            }
+            tv.adjustVolume(change);
+        }
+
+        togglePower(tv) {
+            if (tv.isOn) {
+                tv.turnOff();
+            } else {
+                tv.turnOn();
+            }
+        }
+    }
+
+    let myTv = new TiVi();
+    let myRemote = new Remote("RMT123");
+
+    myTv.turnOn();
+
+    myTv.changeChannel(7);
+
+    myRemote.changeChannel(myTv, 3);
+
+    myTv.adjustVolume(2);
+
+    myRemote.togglePower(myTv);
+</script>
+
+</body>
+</html>

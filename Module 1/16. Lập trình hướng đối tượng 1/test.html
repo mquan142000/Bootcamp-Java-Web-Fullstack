@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    // Định nghĩa lớp TiVi
+    class TiVi {
+        constructor() {
+            this.currentChannel = 1;
+            this.volume = 10;
+            this.isOn = false;
+        }
+
+        // Bật TiVi
+        turnOn() {
+            this.isOn = true;
+            console.log("TiVi is now ON.");
+        }
+
+        // Tắt TiVi
+        turnOff() {
+            this.isOn = false;
+            console.log("TiVi is now OFF.");
+        }
+
+        // Chuyển kênh
+        changeChannel(channel) {
+            if (!this.isOn) {
+                console.log("TiVi is OFF. Cannot change channel.");
+                return;
+            }
+            this.currentChannel = channel;
+            console.log(`Channel changed to ${this.currentChannel}`);
+        }
+
+        // Điều khiển âm lượng
+        adjustVolume(change) {
+            if (!this.isOn) {
+                console.log("TiVi is OFF. Cannot adjust volume.");
+                return;
+            }
+            this.volume += change;
+            if (this.volume < 0) this.volume = 0;  // Đảm bảo âm lượng không dưới 0
+            console.log(`Volume adjusted to ${this.volume}`);
+        }
+    }
+
+    // Định nghĩa lớp Remote
+    class Remote {
+        constructor(code) {
+            this.code = code;
+        }
+
+        // Điều khiển chuyển kênh của TiVi
+        changeChannel(tv, channel) {
+            if (!tv.isOn) {
+                console.log("TiVi is OFF. Cannot change channel with remote.");
+                return;
+            }
+            tv.changeChannel(channel);
+        }
+
+        // Điều khiển âm lượng của TiVi
+        adjustVolume(tv, change) {
+            if (!tv.isOn) {
+                console.log("TiVi is OFF. Cannot adjust volume with remote.");
+                return;
+            }
+            tv.adjustVolume(change);
+        }
+
+        // Bật tắt TiVi
+        togglePower(tv) {
+            if (tv.isOn) {
+                tv.turnOff();
+            } else {
+                tv.turnOn();
+            }
+        }
+    }
+
+    // Sử dụng lớp TiVi và Remote
+    let myTv = new TiVi();
+    let myRemote = new Remote("RMT123");
+
+    // Bật TiVi
+    myTv.turnOn();
+
+    // Chuyển đến kênh 7
+    myTv.changeChannel(7);
+
+    // Dùng remote chuyển đến kênh 3
+    myRemote.changeChannel(myTv, 3);
+
+    // Tăng âm lượng lên 2 đơn vị
+    myTv.adjustVolume(2);
+
+    // Dùng remote tắt TiVi
+    myRemote.togglePower(myTv);
+
+
+</script>
+
+</body>
+</html>
