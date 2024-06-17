@@ -187,6 +187,7 @@
       <change afterPath="$PROJECT_DIR$/module-2/session-8/Refactoring-ten-bien/src/FizzBuzz.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/module-2/session-8/Refactoring-ten-bien/src/FizzBuzzTest.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/module-2/session-8/Refactoring-ten-bien/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -231,6 +232,8 @@
       <updated>1718608359598</updated>
       <workItem from="1718608360647" duration="36000" />
       <workItem from="1718608721074" duration="148000" />
+      <workItem from="1718609304496" duration="181000" />
+      <workItem from="1718610609686" duration="35000" />
     </task>
     <servers />
   </component>
