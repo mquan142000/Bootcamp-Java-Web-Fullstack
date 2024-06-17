@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../session-5">
+      <sourceFolder url="file://$MODULE_DIR$/../session-5/access-modifier-student/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../session-5/access-modifier/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../session-5/static-method-test/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../session-5/static-property-test/src" isTestSource="false" />
+    </content>
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
