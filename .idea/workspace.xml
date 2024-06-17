@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="bd5efbc6-6734-4619-ad48-b133150e7f13" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/module-2/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-2/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-2/Session 2/20-so-nguyen-to/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-2/Session 2/20-so-nguyen-to/src/SoNguyenTo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-2/Session 2/Session 2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-2/Session 2/check-prime2/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-2/Session 2/check-prime2/src/Prime.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-2/Session 2/draw-geometry/src/Geometry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-2/Session 2/draw-geometry/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-2/Session 2/greatest-common-factor/src/GreatestCommonFactor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-2/Session 2/greatest-common-factor/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-2/Session 2/interest-calculator/src/Interest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-2/Session 2/interest-calculator/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-2/Session 2/so-nguyen-to-100/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-2/Session 2/so-nguyen-to-100/src/SoNguyenToNhoHon100.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-2/Session 2/ve-sao/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-2/Session 2/ve-sao/src/VeCacHinh.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-2/Session 3/Session 3.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-2/Session 3/add-array/src/AddArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-2/Session 3/add-array/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-2/Session 3/convert-temperature/src/ConvertTemperature.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-2/Session 3/convert-temperature/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-2/Session 3/count-student-pass/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-2/Session 3/count-student-pass/src/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-2/Session 3/del-arr/src/DeleteArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-2/Session 3/del-arr/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-2/Session 3/dem-lan-xuat-hien/src/DemLanXuatHien.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-2/Session 3/dem-lan-xuat-hien/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-2/Session 3/find-max-element-two-array/src/FindMaxElementTwoArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-2/Session 3/find-max-element-two-array/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-2/Session 3/find-max-element/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-2/Session 3/find-max-element/src/NumberArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-2/Session 3/find-min-element-pt/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-2/Session 3/find-min-element-pt/src/NumberArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-2/Session 3/find-min-element/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-2/Session 3/find-min-element/src/NumberArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-2/Session 3/gather-array/src/GatherArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-2/Session 3/gather-array/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-2/Session 3/reverse-array/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-2/Session 3/reverse-array/src/ReverseArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-2/Session 3/student-array/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-2/Session 3/student-array/src/StudentArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-2/Session 3/total-diagonal-line-arr/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-2/Session 3/total-diagonal-line-arr/src/TotalDiagonalLine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-2/Session 3/total-row/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-2/Session 3/total-row/src/TotalRow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-2/Session 4/Session 4.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-2/Session 4/create-rectangle-class/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-2/Session 4/create-rectangle-class/src/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-2/Session 4/pt-bac-hai/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-2/Session 4/pt-bac-hai/src/QuadraticEquation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-2/Session 4/stop-watch/src/StopWatch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-2/Session 4/stop-watch/src/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-2/session-1/Operator-Expression/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-2/session-1/Operator-Expression/src/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-2/session-1/Session 1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-2/session-1/Variable-DataType/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-2/session-1/Variable-DataType/src/VariableDataType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-2/session-1/bmi-calculator/src/BodyMassIndex.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-2/session-1/bmi-calculator/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-2/session-1/currency-conversion/src/CurrencyConversion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-2/session-1/currency-conversion/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-2/session-1/day-of-month/src/DayOfMonth.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-2/session-1/day-of-month/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-2/session-1/display-hello/src/DisplayHello.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-2/session-1/display-hello/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-2/session-1/doc-so/src/DocSoThanhChu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-2/session-1/doc-so/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-2/session-1/leap-year-calculator/src/LeapYearCalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-2/session-1/leap-year-calculator/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-2/session-1/linear-equation-resolver/src/LinearEquationResolver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-2/session-1/linear-equation-resolver/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-2/session-1/system-time/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-2/session-1/system-time/src/SystemTime.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-2/session-5/Session 5.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-2/session-5/access-modifier-student/src/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-2/session-5/access-modifier-student/src/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-2/session-5/access-modifier/src/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-2/session-5/access-modifier/src/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-2/session-5/static-method-test/src/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-2/session-5/static-method-test/src/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-2/session-5/static-property-test/src/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-2/session-5/static-property-test/src/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-2/session-6/Triangle/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-2/session-6/Triangle/src/Shape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-2/session-6/Triangle/src/Triangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-2/session-6/circle-cylinder/src/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-2/session-6/circle-cylinder/src/Cylinder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-2/session-6/circle-cylinder/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-2/session-6/point-moveablepoint/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-2/session-6/point-moveablepoint/src/MovablePoint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-2/session-6/point-moveablepoint/src/Point.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-2/session-6/point2d-point3d/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-2/session-6/point2d-point3d/src/Point2d.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-2/session-6/point2d-point3d/src/Point3d.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-2/session-6/src/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-2/session-6/src/CircleTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-2/session-6/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-2/session-6/src/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-2/session-6/src/Shape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-2/session-6/src/session-6.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-2/session-7/Animal-interFaceEdible/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-2/session-7/Animal-interFaceEdible/src/animal/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-2/session-7/Animal-interFaceEdible/src/animal/Chicken.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-2/session-7/Animal-interFaceEdible/src/animal/Tiger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-2/session-7/Animal-interFaceEdible/src/edible/Edible.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-2/session-7/Animal-interFaceEdible/src/fruit/Apple.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-2/session-7/Animal-interFaceEdible/src/fruit/Fruit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-2/session-7/Animal-interFaceEdible/src/fruit/Orange.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-2/session-7/interface-Colorable/src/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-2/session-7/interface-Colorable/src/Colorable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-2/session-7/interface-Colorable/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-2/session-7/interface-Colorable/src/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-2/session-7/interface-Colorable/src/Square.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-2/session-7/interface-Comparable/src/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-2/session-7/interface-Comparable/src/ComparableCircle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-2/session-7/interface-Comparable/src/ComparableCircleTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-2/session-7/interface-Comparable/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-2/session-7/interface-Comparable/src/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-2/session-7/interface-Comparable/src/Shape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-2/session-7/interface-Comparatorr/src/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-2/session-7/interface-Comparatorr/src/CircleComparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-2/session-7/interface-Comparatorr/src/CircleComparatorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-2/session-7/interface-Comparatorr/src/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-2/session-7/interface-Comparatorr/src/Shape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-2/session-7/interface-Resizeable/src/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-2/session-7/interface-Resizeable/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-2/session-7/interface-Resizeable/src/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-2/session-7/interface-Resizeable/src/Resizeable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-2/session-7/interface-Resizeable/src/Square.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-2/session-7/session-7.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-2/session-8/Refactoring-tach-phuong-thuc/src/Cylinder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-2/session-8/Refactoring-tach-phuong-thuc/src/CylinderTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-2/session-8/Refactoring-ten-bien/src/FizzBuzz.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-2/session-8/Refactoring-ten-bien/src/FizzBuzzTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-2/session-8/Refactoring-ten-bien/src/Main.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 2
+}]]></component>
+  <component name="ProjectId" id="2hzshYfafyYzcyzWUuu6sInJhHa" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/minhquan/Documents/Bootcamp-Java-Web-Fullstack",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.17011.79" />
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-IU-241.17011.79" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bd5efbc6-6734-4619-ad48-b133150e7f13" name="Changes" comment="" />
+      <created>1718608359598</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1718608359598</updated>
+      <workItem from="1718608360647" duration="36000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

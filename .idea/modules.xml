@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/module-2/Session 2/20-so-nguyen-to/20-so-nguyen-to.iml" filepath="$PROJECT_DIR$/module-2/Session 2/20-so-nguyen-to/20-so-nguyen-to.iml" />
+      <module fileurl="file://$PROJECT_DIR$/module-2/session-7/Animal-interFaceEdible/Animal-interFaceEdible.iml" filepath="$PROJECT_DIR$/module-2/session-7/Animal-interFaceEdible/Animal-interFaceEdible.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Bootcamp-Java-Web-Fullstack.iml" filepath="$PROJECT_DIR$/.idea/Bootcamp-Java-Web-Fullstack.iml" />
+      <module fileurl="file://$PROJECT_DIR$/module-2/session-1/Operator-Expression/Operator-Expression.iml" filepath="$PROJECT_DIR$/module-2/session-1/Operator-Expression/Operator-Expression.iml" />
+      <module fileurl="file://$PROJECT_DIR$/module-2/session-8/Refactoring-doi-ten-bien-tach-hang/Refactoring-doi-ten-bien-tach-hang.iml" filepath="$PROJECT_DIR$/module-2/session-8/Refactoring-doi-ten-bien-tach-hang/Refactoring-doi-ten-bien-tach-hang.iml" />
+      <module fileurl="file://$PROJECT_DIR$/module-2/session-8/Refactoring-tach-phuong-thuc/Refactoring-tach-phuong-thuc.iml" filepath="$PROJECT_DIR$/module-2/session-8/Refactoring-tach-phuong-thuc/Refactoring-tach-phuong-thuc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/module-2/session-8/Refactoring-ten-bien/Refactoring-ten-bien.iml" filepath="$PROJECT_DIR$/module-2/session-8/Refactoring-ten-bien/Refactoring-ten-bien.iml" />
+      <module fileurl="file://$PROJECT_DIR$/module-2/session-6/Triangle/Triangle.iml" filepath="$PROJECT_DIR$/module-2/session-6/Triangle/Triangle.iml" />
+      <module fileurl="file://$PROJECT_DIR$/module-2/session-1/Variable-DataType/Variable-DataType.iml" filepath="$PROJECT_DIR$/module-2/session-1/Variable-DataType/Variable-DataType.iml" />
+      <module fileurl="file://$PROJECT_DIR$/module-2/session-5/access-modifier/access-modifier.iml" filepath="$PROJECT_DIR$/module-2/session-5/access-modifier/access-modifier.iml" />
+      <module fileurl="file://$PROJECT_DIR$/module-2/session-5/access-modifier-student/access-modifier-student.iml" filepath="$PROJECT_DIR$/module-2/session-5/access-modifier-student/access-modifier-student.iml" />
+      <module fileurl="file://$PROJECT_DIR$/module-2/Session 3/add-array/add-array.iml" filepath="$PROJECT_DIR$/module-2/Session 3/add-array/add-array.iml" />
+      <module fileurl="file://$PROJECT_DIR$/module-2/session-1/bmi-calculator/bmi-calculator.iml" filepath="$PROJECT_DIR$/module-2/session-1/bmi-calculator/bmi-calculator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/module-2/Session 2/check-prime2/check-prime2.iml" filepath="$PROJECT_DIR$/module-2/Session 2/check-prime2/check-prime2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/module-2/session-6/circle-cylinder/circle-cylinder.iml" filepath="$PROJECT_DIR$/module-2/session-6/circle-cylinder/circle-cylinder.iml" />
+      <module fileurl="file://$PROJECT_DIR$/module-2/Session 3/convert-temperature/convert-temperature.iml" filepath="$PROJECT_DIR$/module-2/Session 3/convert-temperature/convert-temperature.iml" />
+      <module fileurl="file://$PROJECT_DIR$/module-2/Session 3/count-student-pass/count-student-pass.iml" filepath="$PROJECT_DIR$/module-2/Session 3/count-student-pass/count-student-pass.iml" />
+      <module fileurl="file://$PROJECT_DIR$/module-2/Session 4/create-rectangle-class/create-rectangle-class.iml" filepath="$PROJECT_DIR$/module-2/Session 4/create-rectangle-class/create-rectangle-class.iml" />
+      <module fileurl="file://$PROJECT_DIR$/module-2/session-1/currency-conversion/currency-conversion.iml" filepath="$PROJECT_DIR$/module-2/session-1/currency-conversion/currency-conversion.iml" />
+      <module fileurl="file://$PROJECT_DIR$/module-2/session-1/day-of-month/day-of-month.iml" filepath="$PROJECT_DIR$/module-2/session-1/day-of-month/day-of-month.iml" />
+      <module fileurl="file://$PROJECT_DIR$/module-2/Session 3/del-arr/del-arr.iml" filepath="$PROJECT_DIR$/module-2/Session 3/del-arr/del-arr.iml" />
+      <module fileurl="file://$PROJECT_DIR$/module-2/Session 3/dem-lan-xuat-hien/dem-lan-xuat-hien.iml" filepath="$PROJECT_DIR$/module-2/Session 3/dem-lan-xuat-hien/dem-lan-xuat-hien.iml" />
+      <module fileurl="file://$PROJECT_DIR$/module-2/session-1/display-hello/display-hello.iml" filepath="$PROJECT_DIR$/module-2/session-1/display-hello/display-hello.iml" />
+      <module fileurl="file://$PROJECT_DIR$/module-2/session-1/doc-so/doc-so.iml" filepath="$PROJECT_DIR$/module-2/session-1/doc-so/doc-so.iml" />
+      <module fileurl="file://$PROJECT_DIR$/module-2/Session 2/draw-geometry/draw-geometry.iml" filepath="$PROJECT_DIR$/module-2/Session 2/draw-geometry/draw-geometry.iml" />
+      <module fileurl="file://$PROJECT_DIR$/module-2/Session 3/find-max-element/find-max-element.iml" filepath="$PROJECT_DIR$/module-2/Session 3/find-max-element/find-max-element.iml" />
+      <module fileurl="file://$PROJECT_DIR$/module-2/Session 3/find-max-element-two-array/find-max-element-two-array.iml" filepath="$PROJECT_DIR$/module-2/Session 3/find-max-element-two-array/find-max-element-two-array.iml" />
+      <module fileurl="file://$PROJECT_DIR$/module-2/Session 3/find-min-element/find-min-element.iml" filepath="$PROJECT_DIR$/module-2/Session 3/find-min-element/find-min-element.iml" />
+      <module fileurl="file://$PROJECT_DIR$/module-2/Session 3/find-min-element-pt/find-min-element-pt.iml" filepath="$PROJECT_DIR$/module-2/Session 3/find-min-element-pt/find-min-element-pt.iml" />
+      <module fileurl="file://$PROJECT_DIR$/module-2/Session 3/gather-array/gather-array.iml" filepath="$PROJECT_DIR$/module-2/Session 3/gather-array/gather-array.iml" />
+      <module fileurl="file://$PROJECT_DIR$/module-2/Session 2/greatest-common-factor/greatest-common-factor.iml" filepath="$PROJECT_DIR$/module-2/Session 2/greatest-common-factor/greatest-common-factor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/module-2/Session 2/interest-calculator/interest-calculator.iml" filepath="$PROJECT_DIR$/module-2/Session 2/interest-calculator/interest-calculator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/module-2/session-7/interface-Colorable/interface-Colorable.iml" filepath="$PROJECT_DIR$/module-2/session-7/interface-Colorable/interface-Colorable.iml" />
+      <module fileurl="file://$PROJECT_DIR$/module-2/session-7/interface-Comparable/interface-Comparable.iml" filepath="$PROJECT_DIR$/module-2/session-7/interface-Comparable/interface-Comparable.iml" />
+      <module fileurl="file://$PROJECT_DIR$/module-2/session-7/interface-Comparatorr/interface-Comparatorr.iml" filepath="$PROJECT_DIR$/module-2/session-7/interface-Comparatorr/interface-Comparatorr.iml" />
+      <module fileurl="file://$PROJECT_DIR$/module-2/session-7/interface-Resizeable/interface-Resizeable.iml" filepath="$PROJECT_DIR$/module-2/session-7/interface-Resizeable/interface-Resizeable.iml" />
+      <module fileurl="file://$PROJECT_DIR$/module-2/session-1/leap-year-calculator/leap-year-calculator.iml" filepath="$PROJECT_DIR$/module-2/session-1/leap-year-calculator/leap-year-calculator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/module-2/session-1/linear-equation-resolver/linear-equation-resolver.iml" filepath="$PROJECT_DIR$/module-2/session-1/linear-equation-resolver/linear-equation-resolver.iml" />
+      <module fileurl="file://$PROJECT_DIR$/module-2/out/out.iml" filepath="$PROJECT_DIR$/module-2/out/out.iml" />
+      <module fileurl="file://$PROJECT_DIR$/module-2/session-6/point-moveablepoint/point-moveablepoint.iml" filepath="$PROJECT_DIR$/module-2/session-6/point-moveablepoint/point-moveablepoint.iml" />
+      <module fileurl="file://$PROJECT_DIR$/module-2/session-6/point2d-point3d/point2d-point3d.iml" filepath="$PROJECT_DIR$/module-2/session-6/point2d-point3d/point2d-point3d.iml" />
+      <module fileurl="file://$PROJECT_DIR$/module-2/Session 4/pt-bac-hai/pt-bac-hai.iml" filepath="$PROJECT_DIR$/module-2/Session 4/pt-bac-hai/pt-bac-hai.iml" />
+      <module fileurl="file://$PROJECT_DIR$/module-2/Session 3/reverse-array/reverse-array.iml" filepath="$PROJECT_DIR$/module-2/Session 3/reverse-array/reverse-array.iml" />
+      <module fileurl="file://$PROJECT_DIR$/module-2/session-6/session-6.iml" filepath="$PROJECT_DIR$/module-2/session-6/session-6.iml" />
+      <module fileurl="file://$PROJECT_DIR$/module-2/Session 2/so-nguyen-to-100/so-nguyen-to-100.iml" filepath="$PROJECT_DIR$/module-2/Session 2/so-nguyen-to-100/so-nguyen-to-100.iml" />
+      <module fileurl="file://$PROJECT_DIR$/module-2/session-5/static-method-test/static-method-test.iml" filepath="$PROJECT_DIR$/module-2/session-5/static-method-test/static-method-test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/module-2/session-5/static-property-test/static-property-test.iml" filepath="$PROJECT_DIR$/module-2/session-5/static-property-test/static-property-test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/module-2/Session 4/stop-watch/stop-watch.iml" filepath="$PROJECT_DIR$/module-2/Session 4/stop-watch/stop-watch.iml" />
+      <module fileurl="file://$PROJECT_DIR$/module-2/Session 3/student-array/student-array.iml" filepath="$PROJECT_DIR$/module-2/Session 3/student-array/student-array.iml" />
+      <module fileurl="file://$PROJECT_DIR$/module-2/session-1/system-time/system-time.iml" filepath="$PROJECT_DIR$/module-2/session-1/system-time/system-time.iml" />
+      <module fileurl="file://$PROJECT_DIR$/module-2/Session 3/total-diagonal-line-arr/total-diagonal-line-arr.iml" filepath="$PROJECT_DIR$/module-2/Session 3/total-diagonal-line-arr/total-diagonal-line-arr.iml" />
+      <module fileurl="file://$PROJECT_DIR$/module-2/Session 3/total-row/total-row.iml" filepath="$PROJECT_DIR$/module-2/Session 3/total-row/total-row.iml" />
+      <module fileurl="file://$PROJECT_DIR$/module-2/Session 2/ve-sao/ve-sao.iml" filepath="$PROJECT_DIR$/module-2/Session 2/ve-sao/ve-sao.iml" />
+    </modules>
+  </component>
+</project>
