@@ -1,0 +1,4 @@
+1,phone,23000.0,phone,apple
+2,Samsung,21000.0,phone,samsung
+3,Oppo,12000.0,phone,Oppo
+4,XiaoMi,20000.0,Phone,XiaoMi
