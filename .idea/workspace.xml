@@ -110,6 +110,66 @@
       <change afterPath="$PROJECT_DIR$/module-2/session-1/system-time/src/Main.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/module-2/session-1/system-time/src/SystemTime.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/module-2/session-1/system-time/system-time.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-2/session-10/basic-linkedlist/src/MyLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-2/session-10/basic-linkedlist/src/TestMyLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-2/session-10/basic-list/src/MyList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-2/session-10/basic-list/src/MyListTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-2/session-10/bt-ArrayList/src/MyList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-2/session-10/bt-ArrayList/src/TestMyList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-2/session-10/bt-LinkedList/src/MyLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-2/session-10/bt-LinkedList/src/MyLinkedListTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-2/session-11/bt-dao-nguoc-stack/src/MyGenericStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-2/session-11/bt-dao-nguoc-stack/src/ReverseStringUsingStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-2/session-11/convert-couter-system/src/ConvertCouterSystem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-2/session-11/my-generic-stack/src/GenericStackClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-2/session-11/my-generic-stack/src/MyGenericStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-2/session-11/my-linked-list-queue/src/LinkedListQueueClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-2/session-11/my-linked-list-queue/src/MyLinkedListQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-2/session-11/my-linked-list-queue/src/Node.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-2/session-11/op-queue-arr/src/MyQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-2/session-11/op-queue-arr/src/QueueClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-2/session-11/queue-lk-vong/src/Node.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-2/session-11/queue-lk-vong/src/Queue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-2/session-11/queue-lk-vong/src/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-2/session-12/arrList-linkedList-trong-jv-collection-framework/src/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-2/session-12/arrList-linkedList-trong-jv-collection-framework/src/ProductManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-2/session-12/binary-search-tree/src/BinaryTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-2/session-12/binary-search-tree/src/Node.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-2/session-12/binary-search-tree/src/Tree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-2/session-12/comparable-comparator/src/AgeComparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-2/session-12/comparable-comparator/src/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-2/session-12/dl-binary-search-tree/src/BinaryTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-2/session-12/dl-binary-search-tree/src/Node.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-2/session-12/hashMap-hashSet/src/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-2/session-12/search-binary-search-tree/src/BinaryTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-2/session-12/search-binary-search-tree/src/Node.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-2/session-12/th-cay-tim-kiem-nhi-phan/src/AbstractTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-2/session-12/th-cay-tim-kiem-nhi-phan/src/BST.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-2/session-12/th-cay-tim-kiem-nhi-phan/src/TestBST.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-2/session-12/th-cay-tim-kiem-nhi-phan/src/Tree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-2/session-12/th-cay-tim-kiem-nhi-phan/src/TreeNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-2/session-13/algorithm-complexity-test/src/AlgorithmComplexityTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-2/session-13/binary-search-using-recursion/src/BinarySearchUsingRecursion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-2/session-13/binary-search/src/BinarySearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-2/session-13/largest-ascending-series/src/LargestAscendingSeries.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-2/session-14/bubble-sort-by-step/src/BubbleSortByStep.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-2/session-14/bubble-sort/BubbleSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-2/session-14/insertion-sort/src/InsertionSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-2/session-14/selection-sort/src/SelectionSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-2/session-15/LinearEquationResolver/src/LinearEquationResolver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-2/session-15/array-example/src/ArrayExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-2/session-15/illegal-triangle-exception/src/TriangleValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-2/session-16/copy-file-text/CopyFileText.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-2/session-16/copy-file-text/src/source.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-2/session-16/copy-file-text/src/target.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-2/session-16/read-and-write-file/ReadAndWriteFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-2/session-16/read-and-write-file/src/numbers.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-2/session-16/read-and-write-file/src/result.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-2/session-16/read-file-example/ReadFileExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-2/session-16/read-file-example/src/numbers.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-2/session-16/read-file/entity/Country.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-2/session-16/read-file/src/CountryManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-2/session-16/read-file/src/data.csv" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/module-2/session-5/Session 5.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/module-2/session-5/access-modifier-student/access-modifier-student.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/module-2/session-5/access-modifier-student/src/Student.java" afterDir="false" />
@@ -181,13 +241,26 @@
       <change afterPath="$PROJECT_DIR$/module-2/session-7/interface-Resizeable/src/Resizeable.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/module-2/session-7/interface-Resizeable/src/Square.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/module-2/session-7/session-7.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-2/session-8/Refactoring-doi-ten-bien-tach-hang/src/Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-2/session-8/Refactoring-doi-ten-bien-tach-hang/src/CalculatorTest.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/module-2/session-8/Refactoring-tach-phuong-thuc/src/Cylinder.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/module-2/session-8/Refactoring-tach-phuong-thuc/src/CylinderTest.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/module-2/session-8/Refactoring-ten-bien/Refactoring-ten-bien.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/module-2/session-8/Refactoring-ten-bien/src/FizzBuzz.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/module-2/session-8/Refactoring-ten-bien/src/FizzBuzzTest.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/module-2/session-8/Refactoring-ten-bien/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-2/session-8/bt-Refactoring/src/TennisGame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-2/session-8/bt-Refactoring/src/TennisGameTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-2/session-9/absolute-number-calculator/src/AbsoluteNumberCalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-2/session-9/absolute-number-calculator/src/AbsoluteNumberCalculatorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-2/session-9/apj-2023-junit-calculator/src/SimpleCalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-2/session-9/apj-2023-junit-calculator/src/SimpleCalculatorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-2/session-9/fizz-buzz-translate/src/FizzBuzzTranslate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-2/session-9/fizz-buzz-translate/src/TestFizzBuzzTranslate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-2/session-9/next-day-calculator/src/NextDayCalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-2/session-9/next-day-calculator/src/NextDayCalculatorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-2/session-9/triangle-classifier/src/TriangleClassifier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-2/session-9/triangle-classifier/src/TriangleClassifierTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -234,6 +307,7 @@
       <workItem from="1718608721074" duration="148000" />
       <workItem from="1718609304496" duration="181000" />
       <workItem from="1718610609686" duration="35000" />
+      <workItem from="1719545875928" duration="15000" />
     </task>
     <servers />
   </component>
